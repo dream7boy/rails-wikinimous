@@ -34,6 +34,9 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'faker', :git => 'git://github.com/stympy/faker.git', :branch => 'master'
+gem 'bootstrap-sass', '3.2.0.0'
+gem 'kramdown', '1.15.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
